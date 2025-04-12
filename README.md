@@ -1,5 +1,5 @@
-Here's a **simple and informative README.md** for your NourishNet project website:
 
+<img src="https://github.com/user-attachments/assets/92d3e681-b298-4da5-ae11-5ef26935771c" height=300/>
 ---
 
 ## 🌾 NourishNet – Food for Every Soul
