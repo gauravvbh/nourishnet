@@ -28,7 +28,7 @@
 
     <section class="donation-form" id="donationForm">
       <h2>Food Donation Form</h2>
-      <form id="form">
+      <form id="form" onsubmit="handleSubmit(event)">
         <input type="text" name="donorName" placeholder="Your Name" required />
         <input
           type="text"
@@ -53,6 +53,7 @@
           placeholder="Contact Number"
           required
         />
+        <button>Submit</button>
       </form>
     </section>
     <script src="./script.js"></script>
