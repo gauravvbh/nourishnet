@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>NourishNet - Donate Food</title>
+  </head>
+  <body>
+    <header>
+      <h1>NourishNet</h1>
+      <p>Connecting Surplus to Starving — One Meal at a Time</p>
+      <nav>
+        <button onclick="scrollToForm()">Donate Now</button>
+        <button onclick="alert('More features coming soon!')">
+          Learn More
+        </button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <img src="../assets/helping-hand.png" alt="Helping Hands" />
+      <div class="quote">
+        <h2>“Waste Less, Feed More.”</h2>
+        <p>Your small act of kindness can be someone's full meal.</p>
+      </div>
+    </section>
+
+    <section class="donation-form" id="donationForm">
+      <h2>Food Donation Form</h2>
+      <form id="form">
+        <input type="text" name="donorName" placeholder="Your Name" required />
+        <input
+          type="text"
+          name="foodType"
+          placeholder="Type of Food (e.g., Rice, Bread)"
+          required
+        />
+        <input
+          type="number"
+          name="quantity"
+          placeholder="Quantity (in kg)"
+          required
+        />
+        <textarea
+          name="address"
+          placeholder="Pickup Address"
+          required
+        ></textarea>
+        <input
+          type="tel"
+          name="contact"
+          placeholder="Contact Number"
+          required
+        />
+      </form>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
